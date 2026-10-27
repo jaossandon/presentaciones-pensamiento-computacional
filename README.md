@@ -26,10 +26,10 @@ Dentro de cada presentación:
 
 | # | Presentación | Temas | |
 |:-:|---|---|:-:|
-| 1 | **Vida, Salud y Educación** | Familia · Salud · Educación | [▶ Ver presentación](https://nbviewer.org/github/TU_USUARIO/presentaciones-pensamiento-computacional/blob/main/Apala_Choque_Cruz_Ona.ipynb) |
-| 2 | **Libertad en lo privado, protección en lo público** | Familia · Seguridad · Salud | [▶ Ver presentación](https://nbviewer.org/github/TU_USUARIO/presentaciones-pensamiento-computacional/blob/main/Alvarez_Diaz_Ticona.ipynb) |
-| 3 | **Bienestar, Medio Ambiente y Proyecto de Vida** | Medio ambiente · Proyecto de vida · Territorio | [▶ Ver presentación](https://nbviewer.org/github/TU_USUARIO/presentaciones-pensamiento-computacional/blob/main/Cortes_Ireland_Nunez.ipynb) |
-| 4 | **Percepción, realidad y paradojas** | Seguridad · Educación · Tecnología | [▶ Ver presentación](https://nbviewer.org/github/TU_USUARIO/presentaciones-pensamiento-computacional/blob/main/Alvarez_Cabezas_Cerda_Mamani_Payauna.ipynb) |
+| 1 | **Vida, Salud y Educación** | Familia · Salud · Educación | [▶ Ver presentación](https://nbviewer.org/github/jaossandon/presentaciones-pensamiento-computacional/blob/main/Apala_Choque_Cruz_Ona.ipynb) |
+| 2 | **Libertad en lo privado, protección en lo público** | Familia · Seguridad · Salud | [▶ Ver presentación](https://nbviewer.org/github/jaossandon/presentaciones-pensamiento-computacional/blob/main/Alvarez_Diaz_Ticona.ipynb) |
+| 3 | **Bienestar, Medio Ambiente y Proyecto de Vida** | Medio ambiente · Proyecto de vida · Territorio | [▶ Ver presentación](https://nbviewer.org/github/jaossandon/presentaciones-pensamiento-computacional/blob/main/Cortes_Ireland_Nunez.ipynb) |
+| 4 | **Percepción, realidad y paradojas** | Seguridad · Educación · Tecnología | [▶ Ver presentación](https://nbviewer.org/github/jaossandon/presentaciones-pensamiento-computacional/blob/main/Alvarez_Cabezas_Cerda_Mamani_Payauna.ipynb) |
 
 ---
 
