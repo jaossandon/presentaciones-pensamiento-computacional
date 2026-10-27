@@ -1,24 +1,23 @@
 # Presentaciones de Pensamiento Computacional
 ### Liceo Bicentenario de Pica · Análisis de datos de una encuesta de opinión
 
+## 👉 [Ver las presentaciones](https://jaossandon.github.io/presentaciones-pensamiento-computacional/)
+
 Este repositorio reúne las **cuatro presentaciones finales** de la asignatura de Pensamiento Computacional. Todos los grupos trabajaron con la misma encuesta de opinión: cada uno eligió los temas que quería investigar, formuló sus propias preguntas y las respondió analizando los datos con Python.
 
-Cada presentación es un *notebook*: un documento que combina **texto, código y gráficos interactivos**. Se puede leer el razonamiento del grupo, ver el código con que procesaron los datos y explorar los resultados.
+Cada presentación combina **texto, código y gráficos interactivos**, tal como la hicieron los estudiantes.
 
 ---
 
 ## 📺 Cómo ver las presentaciones
 
-**No se necesita instalar nada.** Basta con hacer clic en **▶ Ver presentación**, en la tabla de abajo. Se abrirá en el navegador.
-
-Dentro de cada presentación:
+**No se necesita instalar nada.** Basta con hacer clic en **▶ Ver presentación** en la tabla de abajo, o entrar a la [página principal](https://jaossandon.github.io/presentaciones-pensamiento-computacional/).
 
 - **Se lee de arriba hacia abajo**, como un documento: título, introducción, preguntas, gráficos, análisis y conclusión.
-- **Los bloques con código son Python.** No es necesario entenderlos para seguir la presentación, pero muestran el trabajo de programación de los estudiantes.
-- **Los gráficos son interactivos:** al pasar el mouse sobre una barra, un punto o una región del mapa aparece el valor exacto. También se puede hacer zoom y ocultar o mostrar categorías haciendo clic en la leyenda.
-- La primera vez, la página puede tardar unos segundos en cargar.
+- **Los bloques con código son Python** escrito por los estudiantes.
+- **Los gráficos son interactivos:** al pasar el mouse aparece el valor exacto, y se puede hacer zoom u ocultar categorías desde la leyenda.
 
-> Si se abre un archivo `.ipynb` directamente desde la lista de archivos de GitHub, el texto se verá, pero **los gráficos no aparecerán**. Por eso conviene usar los enlaces **▶ Ver presentación**.
+> Los archivos `.ipynb` también se pueden abrir desde la lista de archivos de GitHub, pero ahí los gráficos interactivos no aparecen. Para ver las presentaciones completas conviene usar los enlaces **▶ Ver presentación**.
 
 ---
 
@@ -26,10 +25,10 @@ Dentro de cada presentación:
 
 | # | Presentación | Temas | |
 |:-:|---|---|:-:|
-| 1 | **Vida, Salud y Educación** | Familia · Salud · Educación | [▶ Ver presentación](https://nbviewer.org/github/jaossandon/presentaciones-pensamiento-computacional/blob/main/Apala_Choque_Cruz_Ona.ipynb) |
-| 2 | **Libertad en lo privado, protección en lo público** | Familia · Seguridad · Salud | [▶ Ver presentación](https://nbviewer.org/github/jaossandon/presentaciones-pensamiento-computacional/blob/main/Alvarez_Diaz_Ticona.ipynb) |
-| 3 | **Bienestar, Medio Ambiente y Proyecto de Vida** | Medio ambiente · Proyecto de vida · Territorio | [▶ Ver presentación](https://nbviewer.org/github/jaossandon/presentaciones-pensamiento-computacional/blob/main/Cortes_Ireland_Nunez.ipynb) |
-| 4 | **Percepción, realidad y paradojas** | Seguridad · Educación · Tecnología | [▶ Ver presentación](https://nbviewer.org/github/jaossandon/presentaciones-pensamiento-computacional/blob/main/Alvarez_Cabezas_Cerda_Mamani_Payauna.ipynb) |
+| 1 | **Vida, Salud y Educación** | Familia · Salud · Educación | [▶ Ver presentación](https://jaossandon.github.io/presentaciones-pensamiento-computacional/Apala_Choque_Cruz_Ona.html) |
+| 2 | **Libertad en lo privado, protección en lo público** | Familia · Seguridad · Salud | [▶ Ver presentación](https://jaossandon.github.io/presentaciones-pensamiento-computacional/Alvarez_Diaz_Ticona.html) |
+| 3 | **Bienestar, Medio Ambiente y Proyecto de Vida** | Medio ambiente · Proyecto de vida · Territorio | [▶ Ver presentación](https://jaossandon.github.io/presentaciones-pensamiento-computacional/Cortes_Ireland_Nunez.html) |
+| 4 | **Percepción, realidad y paradojas** | Seguridad · Educación · Tecnología | [▶ Ver presentación](https://jaossandon.github.io/presentaciones-pensamiento-computacional/Alvarez_Cabezas_Cerda_Mamani_Payauna.html) |
 
 ---
 
@@ -103,21 +102,24 @@ El grupo buscó **contradicciones** en las respuestas:
 - Encuesta de opinión aplicada mediante Google Forms, con preguntas sobre **familia, seguridad, salud, educación, medio ambiente, tecnología, política y trabajo**, además de datos de caracterización (región, rango etario, género, nivel educacional, entre otros).
 - La mayoría de las afirmaciones se responden en una escala de 1 (*totalmente en desacuerdo*) a 5 (*totalmente de acuerdo*).
 - **Esta versión está ejecutada con las 152 respuestas finales de la encuesta.** Los estudiantes trabajaron y expusieron con las primeras 150, así que algunas cifras escritas en el texto pueden diferir levemente de las que muestran las tablas y los gráficos.
-- Los estudiantes trabajaron en Google Colab. Para esta versión, la única modificación al código fue la carga de archivos: en lugar de pedir subirlos manualmente, cada notebook lee `Encuesta.xlsx` y `regiones_chile.geojson` desde esta misma carpeta. El resto del código y todo el texto son los originales de cada grupo.
+- Los estudiantes trabajaron en Google Colab. Para esta versión, la única modificación al código fue la carga de archivos: en lugar de pedir subirlos manualmente, cada notebook lee `Encuesta.xlsx` y `regiones_chile.geojson` desde esta misma carpeta. Además, se configuró Plotly para que los gráficos se puedan ver en la web. El resto del código y todo el texto son los originales de cada grupo.
 
 ---
 
 ## 📁 Contenido del repositorio
 
     presentaciones-pensamiento-computacional/
+    ├── index.html                                 ← página principal de las presentaciones
     ├── README.md                                  ← este archivo
-    ├── Apala_Choque_Cruz_Ona.ipynb                ← presentación 1
-    ├── Alvarez_Diaz_Ticona.ipynb                  ← presentación 2
-    ├── Cortes_Ireland_Nunez.ipynb                 ← presentación 3
-    ├── Alvarez_Cabezas_Cerda_Mamani_Payauna.ipynb ← presentación 4
+    ├── Apala_Choque_Cruz_Ona.ipynb / .html                ← presentación 1
+    ├── Alvarez_Diaz_Ticona.ipynb / .html                  ← presentación 2
+    ├── Cortes_Ireland_Nunez.ipynb / .html                 ← presentación 3
+    ├── Alvarez_Cabezas_Cerda_Mamani_Payauna.ipynb / .html ← presentación 4
     ├── Encuesta.xlsx                              ← respuestas de la encuesta (152)
     ├── regiones_chile.geojson                     ← límites regionales para los mapas
     └── requirements.txt                           ← librerías de Python necesarias
+
+Los archivos `.ipynb` son los notebooks originales ejecutados. Los `.html` son las mismas presentaciones convertidas a página web.
 
 ---
 
@@ -139,9 +141,12 @@ Se necesita Python 3 y Visual Studio Code con las extensiones **Python** y **Jup
 2. Abrir la carpeta en Visual Studio Code y, en la terminal, crear un entorno e instalar las librerías:
 
        python -m venv .venv
-       .venv\Scripts\python -m pip install -r requirements.txt ipykernel
+       .venv\Scripts\python -m pip install -r requirements.txt ipykernel nbconvert
 
 3. Abrir un notebook, elegir el kernel **.venv** (arriba a la derecha) y presionar **Run All**.
+4. Para regenerar las páginas web:
+
+       .venv\Scripts\python -m nbconvert --to html *.ipynb
 
 ---
 
